@@ -8,13 +8,13 @@
 # Layout/Display Screenshots:
 
 ### Login Page
-![Login Page](assets/images/Login_Layout_.png)
+![Login Page](assets/images/Login_Layout.png)
 
 ### Registration Page
-![Registration Page](assets/images/Registration.png)
+![Registration Page](assets/images/Registration_Layout.png)
 
 ### Forgot_Password Page
-![Forgot_Password Page](assets/images/Forgot_Password_layout.png)
+![Forgot_Password Page](assets/images/Forgot_Password_Layout.png)
 
 ### Index Page
 ![Index Page](assets/images/Login_Layout.png)
