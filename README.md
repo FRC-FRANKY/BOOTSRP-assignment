@@ -17,4 +17,4 @@
 ![Forgot_Password Page](assets/images/Forgot_Password_Layout.png)
 
 ### Index Page
-![Index Page](assets/images/Login_Layout.png)
+![Index Page](assets/images/Index_Layout.png)
