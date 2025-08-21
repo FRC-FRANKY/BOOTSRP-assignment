@@ -1,47 +1,76 @@
 :root {
-  --brand: #0d6efd;
+    --brand: #0d6efd;
+}
+
+body {
+    background: linear-gradient(135deg, #0d6efd, #6f42c1);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .login-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 420px;
+    /* keep card header/logo centered */
     text-align: center;
 }
 
-
-body {
-  background: linear-gradient(135deg, #0d6efd, #6f42c1);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
 .login-card {
-  width: 100%;
-  max-width: 420px;
-  border: 0;
-  border-radius: 1rem;
-  overflow: hidden;
+    width: 100%;
+    max-width: 420px;
+    border: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 }
 
 .brand-logo {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #0d6efd, #6f42c1);
-  border: none;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    background: linear-gradient(135deg, #0d6efd, #6f42c1);
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
-.btn-primary:hover { filter: brightness(1.05); }
+
+    .btn-primary:hover {
+        filter: brightness(1.05);
+    }
+
+.input-group-text {
+    cursor: pointer;
+}
+
+
+form.text-start {
+    text-align: left;
+    width: 100%;
+}
+
+
+.form-check-input {
+    margin-top: 0.15rem;
+}
+
+.form-check-label {
+    margin-left: 4px;
+    margin-bottom: 0;
+}
 
 @media (min-width: 768px) {
-  .login-card { max-width: 420px; }
+    .login-card {
+        max-width: 420px;
+    }
 }
